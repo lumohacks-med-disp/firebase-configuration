@@ -38,10 +38,67 @@ Once you have your project set up, select _Database_.
 
 Click on the 3-dot button on the right, choose _Import JSON_, and import the file `base_import.json`.
 
-## Getting Data
+## Data
 
-TODO
+Information is stored at `https://{firebaseProjectName}.firebaseio.com`. For our project, we use `https://lumohacks-med-disp.firebaseio.com`.
 
-## Setting Data
+Patients' data is located at the `/patients/{patientId}` URL mapping.
 
-TODO
+To retrieve or update data from the Firebase server, use the REST APIs in the following sections. Text, not JSON, is sent and received.
+
+### Retrieval
+
+#### Alert Status
+
+Request:
+```
+GET /patients/{patientId}/alert.json
+```
+
+Response:
+```
+200 OK
+true
+```
+
+#### Dosage
+
+Request:
+```
+GET /patients/{patientId}/dosage.json
+```
+
+Response:
+```
+200 OK
+4
+```
+
+### Updating
+
+#### Alert Status
+
+Request:
+```
+PUT /patients/{patientId}/alert.json
+true
+```
+
+Response:
+```
+200 OK
+true
+```
+
+#### Dosage
+
+Request:
+```
+GET /patients/{patientId}/dosage.json
+```
+
+Response:
+```
+200 OK
+4
+```
