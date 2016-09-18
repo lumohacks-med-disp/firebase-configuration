@@ -1,4 +1,4 @@
-# firebase-instructions
+# Firebase Configuration
 
 Description of the Google Firebase Database used for the medical dispenser.
 
