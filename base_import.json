@@ -1,9 +1,38 @@
 {
-  "patients" : {
-    "39172938201" : {
-      "alert" : false,
-      "dosage" : 1,
-      "name" : "Jeffrey Leung"
-    }
+  "197214" : {
+    "alert" : false,
+    "dosage" : 2,
+    "dosesPerDay" : 8640,
+    "name" : "Jacky Chao",
+    "nextDispense" : 1.4742168084133582E9,
+    "remainingDosage" : 5,
+    "totalDosage" : 12
+  },
+  "281722" : {
+    "alert" : false,
+    "dosage" : 1,
+    "dosesPerDay" : 4,
+    "name" : "Bradley Dalrymple",
+    "nextDispense" : 1.474216294640282E9,
+    "remainingDosage" : 3,
+    "totalDosage" : 30
+  },
+  "938172" : {
+    "alert" : false,
+    "dosage" : 4,
+    "dosesPerDay" : 2,
+    "name" : "Jeffrey Leung",
+    "nextDispense" : 1.474216294640282E9,
+    "remainingDosage" : 1,
+    "totalDosage" : 25
+  },
+  "981928" : {
+    "alert" : false,
+    "dosage" : 2,
+    "dosesPerDay" : 6,
+    "name" : "Kieran McCormick",
+    "nextDispense" : 1.474216294640282E9,
+    "remainingDosage" : 9,
+    "totalDosage" : 10
   }
 }

@@ -14,7 +14,11 @@ The data is structured as follows:
     "3981820312" : {
       "alert" : false,
       "dosage" : 4,
-      "name" : Jeffrey Leung"
+      "dosesPerDay" : 3,
+      "name" : Jeffrey Leung",
+      "nextDispense" : 1474216825.1630926,
+      "remainingDosage" : 5,
+      "totalDosage" : 12
     }
   ]
 }
