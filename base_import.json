@@ -17,6 +17,15 @@
     "remainingDosage" : 3,
     "totalDosage" : 30
   },
+  "498123" : {
+    "alert" : false,
+    "dosage" : 6,
+    "dosesPerDay" : 3,
+    "name" : "Carlson Chan",
+    "nextDispense" : 1.4742181391527264E9,
+    "remainingDosage" : 29,
+    "totalDosage" : 50
+  },
   "938172" : {
     "alert" : false,
     "dosage" : 4,
