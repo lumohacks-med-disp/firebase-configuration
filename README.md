@@ -1,6 +1,6 @@
 # Firebase Configuration
 
-Description of and configuration for the Google Firebase Database used for the medical dispenser.
+Description and configuration for Google Firebase Database used for the medical dispenser.
 
 ## Structure and Data
 
